@@ -1,0 +1,14 @@
+[package]
+name = "k-bucket"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/datrs/k-bucket"
+documentation = "https://docs.rs/k-bucket"
+description = "Kademlia DHT K-bucket implementation as a binary tree"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+clippy = "0.0"
