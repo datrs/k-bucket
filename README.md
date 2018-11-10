@@ -2,8 +2,7 @@
 [![crates.io version][1]][2] [![build status][3]][4]
 [![downloads][5]][6] [![docs.rs docs][7]][8]
 
-Kademlia DHT K-bucket implementation as a binary tree. Adapted from
-[tristanls/k-bucket](https://github.com/tristanls/k-bucket).
+Kademlia DHT K-bucket implementation as a binary tree.
 
 - [Documentation][8]
 - [Crates.io][2]
@@ -16,6 +15,10 @@ Kademlia DHT K-bucket implementation as a binary tree. Adapted from
 ```sh
 $ cargo add k-bucket
 ```
+
+## References
+- [Kademlia Peer Selection](https://github.com/ethereum/wiki/wiki/Kademlia-Peer-Selection)
+- [libp2p/kbucket.rs](https://github.com/libp2p/rust-libp2p/blob/c032afbde56b4f12e645857cd53582217c7a4762/protocols/kad/src/kbucket.rs)
 
 ## License
 [MIT](./LICENSE-MIT) OR [Apache-2.0](./LICENSE-APACHE)

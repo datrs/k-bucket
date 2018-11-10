@@ -7,8 +7,12 @@ documentation = "https://docs.rs/k-bucket"
 description = "Kademlia DHT K-bucket implementation as a binary tree"
 authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
 readme = "README.md"
+edition = "2018"
 
 [dependencies]
+parking_lot = "0.6.4"
+bigint = "4.4.1"
+arrayvec = "0.4.7"
 
 [dev-dependencies]
 clippy = "0.0"
